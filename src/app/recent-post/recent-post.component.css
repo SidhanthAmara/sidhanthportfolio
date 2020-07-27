@@ -1,0 +1,35 @@
+
+.PostHead{
+    text-align: center;
+    color: #45474a;
+    padding: 15px 10px 0px;
+}
+.PostBorder{
+    margin: auto;
+    width: 8%;
+    border-bottom: 4px solid #45474a;
+     
+}
+
+/* posts */
+.RecentPostDiv{
+    padding-bottom: 40px;
+}
+.card{
+    cursor: pointer;
+    margin-top: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.linkBtn{
+    margin-left: 35%;
+    margin-top: 10px;
+    background-color:  #fc0853 !important;
+    border: #fc0853 !important;
+}
+.linkBtn:hover{
+    background-color: #05c2c9 !important;
+    border: #05c2c9!important;
+}
+.card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

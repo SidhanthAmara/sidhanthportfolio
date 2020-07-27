@@ -1,0 +1,238 @@
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.aboutHeadDiv{
+  
+    background-color: #ece9e9;
+    padding: 15px;
+    /* padding-top: 5%; */
+    height: 550px;
+}
+.aboutHead{
+    margin-top: 25px;
+}
+.aboutHead,.skillsetHead,.ServicesHead{
+    text-align: center;
+    color: #45474a;
+}
+
+.AboutBorder,.skillsetBorder{
+	margin: auto;
+    width: 8%;
+    border-bottom: 4px solid #45474a;
+     
+}
+.aboutContent1,.aboutContent2{
+     
+    text-align: center;
+}
+.aboutContentDiv{
+    margin-top: 35px;
+}
+.aboutContentSpan{
+    color: #fc0853;
+}
+.aboutBodyUpDiv{
+    padding: 15px;
+}
+
+.aboutBodyDiv{
+    background:white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+   
+    margin-top: -18%;
+}
+
+@media only screen and (min-width:320px) and (max-width: 768px){
+    .aboutBodyDiv{
+    
+        margin-top: -50%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .aboutBodyDiv{
+    
+        margin-top: -20%;
+    }
+}
+
+/* Skill Set */
+.skillsetDiv{
+    
+    padding: 20px;
+  
+}
+/* Progress Bar */
+
+.skillBarDiv{
+    margin-top: 30px;
+}
+
+/* * {box-sizing: border-box} */
+.skillBarBack{
+    height: 15px; 
+    position: relative; 
+    background: black; 
+    border-radius: 20px;
+}
+.skillName{
+    font-weight: bold;
+    color: #45474a;
+}
+.skills {
+  text-align: right;
+  padding-right: 10px;
+  line-height: 15px;
+  color: white;
+}
+
+.html , .css{
+  width: 95%; 
+  background-color:  #05c2c9; 
+  /* display: inline-block; */
+  animation: html5 2s ease-out;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  font-weight: 400;
+  overflow: hidden;
+}
+.bootstrap,.js{
+    width: 90%; 
+    background-color:  #05c2c9; 
+    /* display: inline-block; */
+    animation: bootstrap 2s ease-out;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+.js,.angular{
+    width: 85%; 
+    background-color:  #05c2c9; 
+    /* display: inline-block; */
+    animation: js 2s ease-out;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    z-index: -10;
+}
+.jQuery{
+    width: 80%; 
+    background-color: #05c2c9; 
+    /* display: inline-block; */
+    animation: jQuery 2s ease-out;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+.nodeJs,.mySql{
+    width: 75%; 
+    background-color: #05c2c9; 
+    /* display: inline-block; */
+    animation: nodeJs 2s ease-out;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+.asp{
+    width: 65%; 
+    background-color: #05c2c9; 
+    /* display: inline-block; */
+    animation: asp 2s ease-out;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+
+
+@keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes bootstrap{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes js{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes jQuery{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes nodeJs{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes asp{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+/* End Of Skill Bar */
+
+/* Services */
+ .ServicesDIv{
+        margin-top: 50px;
+        padding-bottom: 50px;
+ }
+.card{
+    border: none;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-top: 50px;
+    
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px #05c2c9;
+}
+
+.faIcon{
+    /* font-size: 50px;
+    color: #05c2c9; */
+    background-color: #05c2c9;
+    color: white;
+    border-radius: 50px;
+    height: 73px;
+    line-height: 73px;
+    width: 73px;
+    font-size: 38px;
+    margin-left: 37%;
+}
+.cardName{
+    text-align: center;
+    margin-top: 15px;
+    color: #05c2c9 !;
+}
+.cardText{
+    text-align: center;
+}

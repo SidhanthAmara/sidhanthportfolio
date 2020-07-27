@@ -1,0 +1,35 @@
+.back{
+    background-image: url('../../assets/office1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 96.5px;
+    padding: 50px;
+    background-attachment: fixed;
+    text-align:center
+    /* height:  */
+    /* background-color: red; */
+}
+.back>h1{
+    /* text-align: center; */
+    color: white;
+    margin-bottom: 20px;
+}
+.back>h5{
+    /* text-align: center; */
+    color: white;
+    margin-bottom: 30px;
+}
+.getQ{
+    text-decoration: none;
+    background:  #05c2c9;
+    color: white !important;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    /* margin-top: 30px; */
+    /* width: 10%; */
+    /* text-align: center; */
+}
+.getQ:hover{
+    box-shadow: 0 0 10px white;
+}
